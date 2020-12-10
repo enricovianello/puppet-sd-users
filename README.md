@@ -1,5 +1,5 @@
 
-# sd_users
+# sdds_users
 
 #### Table of Contents
 
@@ -10,14 +10,14 @@
 
 ## Description
 
-Add SD users and their public RSA keys.
+Add SDDS users and their public RSA keys.
 
 ## Setup
 
 This module is available on puppet forge:
 
 ```
-puppet module install cnafsd-sd_users
+puppet module install cnafsd-sdds_users
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ puppet module install cnafsd-sd_users
 Use this module as follow:
 
 ```
-include sd_users
+include sdds_users
 ```
 
 ## Limitations

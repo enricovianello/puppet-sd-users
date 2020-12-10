@@ -1,5 +1,5 @@
 # @summary
-define sd_users::sd_user (
+define sdds_users::authorized_user (
   String $key,
   String $type = 'ssh-rsa',
 ) {

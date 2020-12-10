@@ -1,10 +1,11 @@
 {
-  "name": "cnafsd-sd_users",
-  "version": "0.1.0",
+  "name": "cnafsd-sdds_users",
+  "version": "0.1.1",
   "author": "cnafsd",
-  "summary": "Create SD users",
+  "summary": "Create SDDS users",
   "license": "Apache-2.0",
   "source": "https://github.com/italiangrid/puppet-sd-users",
+  "project_page": "https://github.com/italiangrid/puppet-sd-users",
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
