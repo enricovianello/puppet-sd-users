@@ -28,6 +28,12 @@ Use this module as follow:
 include sdds_users
 ```
 
+Or:
+
+```
+include sdds_users::sd_users
+```
+
 ## Limitations
 
 It works only on RedHat distributions.

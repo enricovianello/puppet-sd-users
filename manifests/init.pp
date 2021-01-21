@@ -2,10 +2,7 @@
 #
 # @example
 #   include sdds_users
-class sdds_users (
-  Data $sd_users,
-  Data $ds_users,
-) {
+class sdds_users {
 
   include sdds_users::common
   include sdds_users::sd_users
