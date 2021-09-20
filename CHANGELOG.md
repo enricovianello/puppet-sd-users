@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## Release 1.1.1
+- Updated Roberta's key
+
 ## Release 1.1.0
 - Added Roberta
 
