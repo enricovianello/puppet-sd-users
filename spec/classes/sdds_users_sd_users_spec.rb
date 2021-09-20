@@ -14,6 +14,7 @@ describe 'sdds_users::sd_users' do
         is_expected.to contain_sdds_users__authorized_user('ronchieri')
         is_expected.to contain_sdds_users__authorized_user('giaco')
         is_expected.to contain_sdds_users__authorized_user('fagostini')
+        is_expected.to contain_sdds_users__authorized_user('rmiccoli')
       end
 
     end

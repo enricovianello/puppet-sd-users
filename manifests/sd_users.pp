@@ -28,6 +28,10 @@ class sdds_users::sd_users {
       'key' => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQD0SLu//+u5nKdA8uKQXCrCAkR4iHMqsn0oROSR88PEWGlfzsevyFenMDMaZUY3yC9FQksJPrwKr0CddPo5ng3W05qWbrv0Uztxieq7AineMGR7EyPdD8nZU1GXkaqmH5t/h+KCpJhU2Eq5RTQnp/f0S+HW2piANpK7OAf2NwsYg/LdNySlqaqt6grbjzxTHPviMTykOlZisu7H+J9xEmEJ3V3E5o5QSuSrJzRNFCOkdZuXYzsmKm+hKhCH3U5yBmk0bUhalva7yl5lA/Q9AvhioM/U6WG/rxC21C+IqkrakEDb/krWKSVG6LqzLKO/93nkMLNZ3ywn7401xuLbgo2B',
       'type' => 'ssh-rsa',
     },
+    'rmiccoli' => {
+      'key' => 'AAAAB3NzaC1yc2EAAAADAQABAAABgQCw3NcgdPFOe+VslkVOLQgruta3JwZE0CWhYHNeOM02sJtBeEwfOctLQIPJAdXuqivldYxT5k7+PlNHOqF6s8mndCDrjhh8JHB1win2LQHSnvOwmKGAgE2Dj9JZ0p16zAInk4BQgZ8MMYeSCMboYgiihVxpXv8ex7oJqZpshAuvkGpKQIBfxXqMSxvK3hrDLTC5LHnUJmsSqg/RAB81fc5AUU3LrMi1Nbm5KiM1+3Tx+PRBUNqERhVfEk6Fur6AdRbMdV+NwXcb0ZXLoU/JQ7Fuzs9Vu4BeYLhTOjZ/G4PLMnaeaWC2/in4FUg1ZGmbxy32ND9P8HpHDQX8daXyuKEjuB1JN7KZqZ058awGLMOXqqwWNUc1f8m8NlSe5ILJuMIUvlhRpLVoXwygG3FI4DIbNLqxIqls9WhBzNZ3xtx55a4msfUkttPq9ZzZwYK6qg3PPPU2jj+bfXtme+RIhq41oHQNsuhjdwQNeWofd9K7sm4NIXBKB3z5nZAkyXrR4Bc=',
+      'type' => 'ssh-rsa',
+    },
   }
   sdds_users::create_users($sd_users)
 }
