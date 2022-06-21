@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## Release 1.2.1
+- Add cduma key
+
 ## Release 1.1.1
 - Updated Roberta's key
 
