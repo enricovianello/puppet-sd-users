@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## Release 1.3.0
+- Added Tommaso's key
+
 ## Release 1.2.1
 - Add cduma key
 

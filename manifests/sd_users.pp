@@ -32,6 +32,10 @@ class sdds_users::sd_users {
       'key' => 'AAAAB3NzaC1yc2EAAAADAQABAAABgQC0FLp5MW130Wsnj8sBD2UlIz3V8ICqOA98oHjJPktAkBWf2JZUu3lEPOEKTO0bwTFLAk3eeg7AC7LZHWDJVbPLQ+GDXrn2RtgQs1hqmkTeocREeFQcrlQwAQnMSScnqvVDYsZ8sx1MpK0pMt60LLPVsCt8Kqc+sjfTsxEb83SvNgb6jxgCkTvU+vwrPk5wKh7aSTj17x9ILl3p0dwS4nHdZ6qN5jp4GC3lc8wITng8r8J13HTUvLJ8gZXM0cEishIQ1Z6hrvu5ctZu60J5S5zko2XPoqyX6sT7cIyoS4DU49S90yGlDO4eO9me/6q28AU2a6Pz2jMiBlf7NcrXs8fGVq38DY89NphGXnasjNYahIFLgHErOgT7v3YtFIlvhFp/s+15WPHP23oKbouDJH3t2YWAPDnTOQ7XKs3h48mE+MInDYDWarD7QnWO0WZtMVmA+eS2WU9BQlRGEVObeGR62zarvkbXsXCOggC0vUkSOoiSBtPqf4I1QWrIbAFyWhc=',
       'type' => 'ssh-rsa',
     },
+    'diotalevi' => {
+      'key' => 'AAAAB3NzaC1yc2EAAAADAQABAAABgQCuekbGnHLPTVMBZC/IBf8taOtY+hsiFc7cvhZ3GUgEukITfIo+QPZ30yDoO/xSiREWywYZqGbfVVwuxK3gGt0DlhzqNnrPS1qKXAbb0keMVS1q2r7nPGv5X/9W1YxvNtnJBqltJs+tG8gTWvvjK7wNs3bhPFYHcCFPAmyVoKz2Wp/7HRuwAkKh8hmFnkGTrfdwsh1HeAbKVOplw4L86Vg7OkDGXn1gM/t/fKR0YDdxHgyrIkJCpNhOFKhtBzL70COcTcUrCWYifQOj4QbCwbD1zu+T5UPA2iARKSJg9BIf3kmMfGz6i4rORDszfE3TjXUGXTMGsGZ6uGyYgg2vOLSjUPY6zRCQEIRXzWPv7jwHEjL9o53MLcxFIkvdK3d51JfHURCYdp2BCxqREDlgi8AK+nZQ+B2jclGB0NJbttzOtvybnCie/+VYIGOzgAM1LAZv8YWhzwwS5EAT3x+GOWteLkwzRnjLKNFzJOK7naXwvdpfYbya9GbjtiIgbWgaBu8=',
+      'type' => 'ssh-rsa',
+    },
   }
   sdds_users::create_users($sd_users)
 }
