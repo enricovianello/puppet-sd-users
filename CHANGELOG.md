@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## Release 1.4.0
+- Added Sinisi's key
+
 ## Release 1.3.0
 - Added Tommaso's key
 
