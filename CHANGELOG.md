@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## Release 1.5.0
+- Added lcappelli key
+- Removed ceccanti, msoares and ronchieri keys
+
 ## Release 1.4.0
 - Added Sinisi's key
 
